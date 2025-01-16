@@ -1,4 +1,4 @@
-import '../src/most-frequent-number';
+import '../src/most-frequent-number.js';
 describe('mostFrequentNumber', () => {
     test('should return the most frequent number in an array of integers', () => {
         expect(mostFrequentNumber([1, 2, 3, 1, 2, 1])).toBe(1);
