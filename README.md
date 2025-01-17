@@ -7,7 +7,7 @@ This project contains a series of JavaScript katas designed to improve your prog
 - Kata 2: Bitmap ISO8583
 - Kata 3: Convert to binary string.
 - Kata 4: Fibonacci
-- Kata 5: Fonpmacci V2
+- Kata 5: Fibonacci V2
 - Kata 6: Invert digits.
 - Kata 7: Maximun subarray sum. 
 - Kata 8: Most frequent number.
