@@ -13,6 +13,7 @@ This project contains a series of JavaScript katas designed to improve your prog
 - Kata 8: Most frequent number.
 - Kata 9: Bowling game.
 - Kata 10: Stack. First Kata from the book "The Clean Code Craftsman" by Robert C. Martin.
+- Kata 11: Printer. Implement the Singleton design pattern in JavaScript.
 
 ## Installation
 
