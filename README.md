@@ -12,6 +12,7 @@ This project contains a series of JavaScript katas designed to improve your prog
 - Kata 7: Maximun subarray sum. Kadane's Algorithm
 - Kata 8: Most frequent number.
 - Kata 9: Bowling game.
+- Kata 10: Stack. First Kata from the book "The Clean Code Craftsman" by Robert C. Martin.
 
 ## Installation
 
