@@ -9,7 +9,7 @@ This project contains a series of JavaScript katas designed to improve your prog
 - Kata 4: Fibonacci
 - Kata 5: Fibonacci V2
 - Kata 6: Invert digits.
-- Kata 7: Maximun subarray sum. 
+- Kata 7: Maximun subarray sum. Kadane's Algorithm
 - Kata 8: Most frequent number.
 - Kata 9: Bowling game.
 
