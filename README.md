@@ -1,0 +1,34 @@
+# Katas JS
+
+This project contains a series of JavaScript katas designed to improve your programming skills. Each kata is a small exercise that challenges you to solve common problems and practice different JavaScript concepts.
+
+## List of Katas
+- Kata 1: Anagrams
+- Kata 2: Bitmap ISO8583
+- Kata 3: Convert to binary string.
+- Kata 4: Fibonacci
+- Kata 5: Fonpmacci V2
+- Kata 6: Invert digits.
+- Kata 7: Maximun subarray sum. 
+- Kata 8: Most frequent number.
+- Kata 9: Bowling game.
+
+## Installation
+
+To install the necessary dependencies, run the following command:
+
+```bash
+pnpm install
+```
+
+## Execution
+
+To run the katas, you can use the following command:
+
+```bash
+pnpm test
+```
+
+This command will run all the tests associated with the katas and allow you to verify if your solutions are correct.
+
+Good luck and happy coding!
