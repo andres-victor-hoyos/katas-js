@@ -10,7 +10,8 @@ describe('findAnagrams', () => {
     test('should return false for non-anagrams', () => {
         expect(findAnagrams('hello', 'world')).toBe(false);
         expect(findAnagrams('test', 'tseting')).toBe(false);
-        expect(findAnagrams('anagram', 'nagaramm')).toBe(false);
+        expect(findAnagrams('anagram', 'nagarmm')).toBe(false);
+
     });
 
     test('should return false for strings of different lengths', () => {
