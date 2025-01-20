@@ -15,6 +15,7 @@ This project contains a series of JavaScript katas designed to improve your prog
 - Kata 10: Stack. First Kata from the book "The Clean Code Craftsman" by Robert C. Martin.
 - Kata 11: Printer. Implement the Singleton design pattern in JavaScript.
 - Kata 12: Longest Palindrome
+- Kata 13: FizzBuzz
 
 ## Installation
 
