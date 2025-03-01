@@ -1,5 +1,5 @@
 export default longestPalindrome = (s) => {
-  if (s.length===0) return "";
+  if (s.length===0) return '';
   for (let palindromelen = s.length; palindromelen > 0; palindromelen--) {
     for(let d=0; d<=s.length-palindromelen; d++) {
       let i = 0;
