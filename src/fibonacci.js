@@ -1,4 +1,4 @@
-export default fibonacci = async (n) =>
+const fibonacci = async (n) =>
     n == 0
       ? []
       : n == 1
@@ -17,4 +17,6 @@ export default fibonacci = async (n) =>
             );
       next(n, c, init);
     });
+
+export default fibonacci;
   

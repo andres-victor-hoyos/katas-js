@@ -1,4 +1,4 @@
-export default fibonacci = async (n) =>
+const fibonacci = async (n) =>
   n == 0
     ? []
     : n == 1
@@ -17,3 +17,5 @@ const recursive_fibs = (n, c, init) =>
           );
     next(n, c, init);
   });
+
+export default fibonacci;

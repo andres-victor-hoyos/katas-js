@@ -1,4 +1,4 @@
-import '../src/most-frequent-number.js';
+import mostFrequentNumber from "../src/most-frequent-number";
 describe('mostFrequentNumber', () => {
     test('should return undefined for an empty array', () => {
         expect(mostFrequentNumber([])).toBeUndefined();

@@ -1,4 +1,4 @@
-export default maxSubarraySum = (arr) => {
+const maxSubarraySum = (arr) => {
   if (arr.length === 0) return 0;
   if (arr.length === 1) return arr[0];
   let curr = -Infinity;
@@ -9,3 +9,5 @@ export default maxSubarraySum = (arr) => {
   }
   return ans;
 };
+
+export default maxSubarraySum;

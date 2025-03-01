@@ -1,4 +1,4 @@
-import '../src/anagrams';
+import findAnagrams from "../src/findAnagrams";
 
 describe('findAnagrams', () => {
     test('should return true for anagrams', () => {

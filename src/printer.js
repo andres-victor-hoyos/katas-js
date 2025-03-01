@@ -1,4 +1,4 @@
-export function Printer() {
+function Printer() {
     this._counter = 0;    
 }
 
@@ -14,3 +14,5 @@ Printer.getInstance = function () {
 Printer.prototype.print = function(){
     console.log("Method Print executed " + ++this._counter);
 }
+
+export default Printer;

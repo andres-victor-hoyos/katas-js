@@ -1,4 +1,4 @@
-import "../src/longest-palindrome";
+import longestPalindrome from "../src/longest-palindrome";
 
 test('finds the longest palindrome in a string', () => {
     expect(longestPalindrome('')).toBe('');

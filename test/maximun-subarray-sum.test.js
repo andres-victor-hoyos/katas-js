@@ -1,4 +1,4 @@
-import  "../src/maximun-subarray-sum";
+import maxSubarraySum from "../src/maximun-subarray-sum";
 describe("", () => {
   test("maximun-subarray-sum", () => {
     expect(maxSubarraySum([])).toBe(0);

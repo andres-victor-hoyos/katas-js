@@ -1,4 +1,4 @@
-import { Printer } from "../src/printer";
+import Printer from "../src/printer";
 import {jest} from '@jest/globals'
 
 describe("Singleteon Site", () => {

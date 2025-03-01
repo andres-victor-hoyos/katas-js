@@ -1,4 +1,4 @@
-import {Bitmap} from  "../src/bitmap.js";
+import Bitmap from  "../src/bitmap.js";
 
 describe("Bitmap", () => {
   test("turnOn, turnOff primary bitmap", ()=>{

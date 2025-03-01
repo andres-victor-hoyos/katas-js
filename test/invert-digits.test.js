@@ -1,4 +1,4 @@
-import '../src/invert-digits'
+import invertDigits from "../src/invert-digits";
 describe("Invert Digits", () => {
   test("should invert the order of digits in an integer", () => {
     const cases = [

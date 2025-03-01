@@ -1,4 +1,4 @@
-export default findAnagrams = (str1, str2) => {
+const findAnagrams = (str1, str2) => {
   const charCount = {};
   for (let char of str1)
     charCount[char.toLowerCase()] = (charCount[char.toLowerCase()] || 0) + 1;
@@ -7,3 +7,5 @@ export default findAnagrams = (str1, str2) => {
     charCount[str2[j++].toLowerCase()]--;
   return j === str2.length && str1.length === str2.length;
 };
+
+export default findAnagrams;

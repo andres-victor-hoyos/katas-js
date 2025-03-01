@@ -1,4 +1,4 @@
-import '../src/convert-to-binary-string';
+import decimalToBinary from "../src/decimla-to-binary"; 
 
 describe("Get binary representation", () => {
   test("Convert number to string binary", () => {

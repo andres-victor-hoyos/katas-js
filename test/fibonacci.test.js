@@ -1,4 +1,4 @@
-import '../src/fibonacci';
+import fibonacci from "../src/fibonacci";
 describe("Fibonacci", () => {
   test.each([
     [0, []],

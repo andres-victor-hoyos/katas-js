@@ -1,4 +1,4 @@
-export function Bitmap() {
+function Bitmap() {
   this._primaryBitmap  = new OctetOfOctet();
 }
 
@@ -112,3 +112,5 @@ const _index = function(e) {
 function _bitInOctet(de) {
   return (de + _index(de)) % (OCTET_SIZE + 1);
 }
+
+export default Bitmap;

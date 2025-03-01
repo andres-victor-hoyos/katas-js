@@ -1,5 +1,4 @@
-import { fizzbuzz } from "../src/fizzbuzz";
-test("nothing", () => {});
+import fizzbuzz  from "../src/fizzbuzz";
 
 test("fizzbuzz", () => {
   expect(fizzbuzz(1)).toBe(1);

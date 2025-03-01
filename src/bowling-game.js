@@ -1,4 +1,4 @@
-export default function Game() {
+function Game() {
     let _rolls = [];
   
     const isSpare = (frameIndex) =>
@@ -38,3 +38,4 @@ export default function Game() {
     this.roll = (pins) => _rolls.push(pins);
   }
   
+  export default Game;

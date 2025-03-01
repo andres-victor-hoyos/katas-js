@@ -1,4 +1,4 @@
-export default mostFrequentNumber = (arr) => {
+const mostFrequentNumber = (arr) => {
   if (arr.length === 0) return undefined;
   const frequency = [];
   let frequenceTotal = 0;
@@ -13,3 +13,4 @@ export default mostFrequentNumber = (arr) => {
   }
   return item;
 };
+export default mostFrequentNumber;

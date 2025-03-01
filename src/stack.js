@@ -1,4 +1,4 @@
-export function Stack(){
+function Stack(){
     this._size = 0;
     this.elements = [];
 }
@@ -20,3 +20,5 @@ Stack.prototype.pop = function(){
 Stack.prototype.size = function(){
     return this._size;
 }
+
+export default Stack;
