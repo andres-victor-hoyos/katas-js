@@ -1,4 +1,4 @@
-import Game from "../src/bowling-game";'../src/bowling-game';
+import Game from "../src/bowling-game";
 
 describe("Bowling game score", () => {
   let game = null;
@@ -12,10 +12,6 @@ describe("Bowling game score", () => {
 
   const rollSpare = () => {
     rollMany(2, game.MAX_PINS / 2);
-  };
-
-  const rollStrike = () => {
-    rollMany(1, game.MAX_PINS);
   };
 
   test("gutterGame", () => {

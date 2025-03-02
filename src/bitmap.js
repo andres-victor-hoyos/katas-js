@@ -4,7 +4,7 @@ function Bitmap() {
 
 Bitmap.prototype.fromArray = function(arr) {
   this._primaryBitmap = this._primaryBitmap.fromArray(arr);
-}
+};
 
 Bitmap.prototype.turnOn = function (de) {
   this._primaryBitmap.turnOn(de);
@@ -12,19 +12,19 @@ Bitmap.prototype.turnOn = function (de) {
 
 Bitmap.prototype.turnOff = function(de){
   this._primaryBitmap.turnOff(de);
-}
+};
 
 Bitmap.prototype.isOn = function(de){
  return this._primaryBitmap.isOn(de);
-}
+};
 
 Bitmap.prototype.toArray = function(){
   return this._primaryBitmap.toArray();
-}
+};
 
 Bitmap.prototype.toString = function(){
   return this._primaryBitmap.toString();
-}
+};
 
 //Octet
 const BIT__0x80 = 0b10000000;
@@ -50,11 +50,11 @@ Octet.prototype.isOn = function (b) {
 
 Octet.prototype.toByte = function(){
   return this._octet;
-}
+};
 
 Octet.prototype.toString = function(){
   return this._octet.toString(16).padStart(2,0);
-}
+};
 
 function rotate_bits_right(b) {
   return BIT__0x80 >> (b - 1);
@@ -75,7 +75,7 @@ OctetOfOctet.prototype.fromArray = function(arr){
   for(let i = 0; i<arr.length; i++){    
     this._dataElements[i] = new Octet(arr[i]);
   }
-}
+};
 
 OctetOfOctet.prototype.turnOn = function (de) {
   this._dataElements[_index(de)].turnOn(_bitInOctet(de));
@@ -95,7 +95,7 @@ OctetOfOctet.prototype.toArray = function(){
     arr_result[i] = this._dataElements[i].toByte();
   }
   return arr_result;
-}
+};
 
 OctetOfOctet.prototype.toString = function(){
   let str_result = '';
@@ -103,7 +103,7 @@ OctetOfOctet.prototype.toString = function(){
     str_result+=this._dataElements[i].toString();
   }
   return str_result;
-}
+};
 
 const _index = function(e) {
   return Math.floor((e - 1) / OCTET_SIZE);

@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --watchAll",
-    "lint": "eslint \"./src/*.js\"",
+    "lint": "eslint",
     "lint:fix": "eslint \"./src/*.js\" --fix"
   },
   "keywords": [],

@@ -15,10 +15,10 @@ Stack.prototype.pop = function(){
     if(this.empty())
         throw new Error('Underflow exception');  
     return this.elements[--this._size];
-}
+};
 
 Stack.prototype.size = function(){
     return this._size;
-}
+};
 
 export default Stack;

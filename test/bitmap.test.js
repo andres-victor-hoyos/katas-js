@@ -17,17 +17,17 @@ describe("Bitmap", () => {
     bitmap.turnOn(8);
     expect(bitmap.isOn(8)).toBeTruthy();
   
-    bitmap.turnOn(9)
+    bitmap.turnOn(9);
     expect(bitmap.isOn(9)).toBeTruthy();
     bitmap.turnOff(9);
     expect(bitmap.isOn(9)).toBeFalsy();
 
     
-    bitmap.turnOn(64)
+    bitmap.turnOn(64);
     expect(bitmap.isOn(64)).toBeTruthy();
     bitmap.turnOff(64);
     expect(bitmap.isOn(64)).toBeFalsy();  
-  })
+  });
 
   test("toArray", ()=>{
     const bitmap = new Bitmap;
@@ -44,16 +44,16 @@ describe("Bitmap", () => {
     bitmap.turnOn(42);
     bitmap.turnOn(59);
     bitmap.turnOn(64);
-    expect(bitmap.toArray()).toEqual([0x62, 0x20, 0x00, 0x00, 0x00, 0x40, 0x00, 0x21])
+    expect(bitmap.toArray()).toEqual([0x62, 0x20, 0x00, 0x00, 0x00, 0x40, 0x00, 0x21]);
   
   });
 
   test("ToString", () => {
     const bitmap = new Bitmap();
-    expect(bitmap.toString()).toEqual("0000000000000000")
+    expect(bitmap.toString()).toEqual("0000000000000000");
 
     bitmap.turnOn(2);
-    expect(bitmap.toString()).toEqual("4000000000000000")
+    expect(bitmap.toString()).toEqual("4000000000000000");
 
     bitmap.turnOn(3);
     expect(bitmap.toString()).toEqual("6000000000000000");

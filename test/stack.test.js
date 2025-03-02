@@ -47,5 +47,5 @@ describe("Stack class", () => {
 
   test("Given pop when an empty Stack then throw exception Underflow", ()=>{
     expect(()=>myStack.pop()).toThrow('Underflow exception');
-  })
+  });
 });

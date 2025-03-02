@@ -13,6 +13,6 @@ Printer.getInstance = function () {
 
 Printer.prototype.print = function(){
     console.log("Method Print executed " + ++this._counter);
-}
+};
 
 export default Printer;

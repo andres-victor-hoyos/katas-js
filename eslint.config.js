@@ -1,21 +1,23 @@
 import globals from "globals";
-import pluginJs from "@eslint/js";
-import jestPlugin from "eslint-plugin-jest"; 
-
-
-/** @type {import('eslint').Linter.FlatConfig[]} */
+import jest from "eslint-plugin-jest";
 export default [
   {
-    languageOptions: { globals: globals.node },
-    plugins: {jest: jestPlugin},    
+    languageOptions: {
+      globals: {
+        ...globals.node,
+        ...globals.jest,
+      }
+    },
+    plugins: {
+      jest,
+    },
+    files: ["**/*.js"],
+    rules: {
+      semi: ["error", "always"],
+      "prefer-const": "error",
+      eqeqeq:  ["warn", "smart"],
+      complexity: ["warn", { "max": 5}],
+      "max-depth": ["warn", 4], 
+    },
   },
-  pluginJs.configs.recommended,
-  jestPlugin.configs.recommended,
-  {
-    rules:{
-      "no-unused-vars": "warn",
-      "no-undef": "warn",
-      //"eqeqeq": ["warn", "smart"],
-    }
-  }
 ];

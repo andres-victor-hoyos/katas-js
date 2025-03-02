@@ -4,7 +4,7 @@ const mostFrequentNumber = (arr) => {
   let frequenceTotal = 0;
   let item = 0;
   for (let i = 0; i < arr.length; i++) {
-    let currentIndex = arr[i];
+    const currentIndex = arr[i];
     frequency[currentIndex] = (frequency[currentIndex] || 0) + 1;
     if (frequency[currentIndex] > frequenceTotal) {
       frequenceTotal = frequency[currentIndex];

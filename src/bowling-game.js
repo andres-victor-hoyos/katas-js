@@ -1,5 +1,5 @@
 function Game() {
-    let _rolls = [];
+    const _rolls = [];
   
     const isSpare = (frameIndex) =>
       _rolls[frameIndex] + _rolls[frameIndex + 1] === this.MAX_PINS;

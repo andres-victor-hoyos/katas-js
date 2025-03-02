@@ -1,9 +1,9 @@
 const fibonacci = async (n) =>
-  n == 0
+  n === 0
     ? []
-    : n == 1
+    : n === 1
     ? [1]
-    : n == 2
+    : n === 2
     ? [1, 1]
     : await recursive_fibs(n, 3, [1, 1, 2]);
 
