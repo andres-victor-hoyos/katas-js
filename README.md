@@ -33,6 +33,12 @@ To run the katas, you can use the following command:
 pnpm test
 ```
 
+To run analysis checks
+```bash
+pnpm lint
+```
+
+
 This command will run all the tests associated with the katas and allow you to verify if your solutions are correct.
 
 Good luck and happy coding!
