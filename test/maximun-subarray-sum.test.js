@@ -11,5 +11,3 @@ describe("", () => {
     expect(maxSubarraySum([-9,-1,7,-2,5,-20])).toBe(10);
   });
 });
-
-

@@ -17,7 +17,9 @@ export default [
       "prefer-const": "error",
       eqeqeq:  ["warn", "smart"],
       complexity: ["warn", { "max": 5}],
-      "max-depth": ["warn", 4], 
+      "max-depth": ["warn", 4],
+      "no-unreachable": "warn",
+      "max-params": ["warn",3],
     },
   },
 ];
