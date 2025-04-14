@@ -7,6 +7,7 @@
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --watchAll",
     "test:qualifications": "NODE_OPTIONS=--experimental-vm-modules jest --watchAll --testPathPattern=qualifications",
+    "test:roman-numerals": "NODE_OPTIONS=--experimental-vm-modules jest roman-numerals.test.js --watchAll ",
     "lint": "eslint",
     "lint:fix": "eslint \"./src/*.js\" --fix"
   },
